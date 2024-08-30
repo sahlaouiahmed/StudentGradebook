@@ -141,7 +141,7 @@ def main():
     """
     print("----------- Welcome to our student gradebook -----------")
     students = []
-    print("Please enter information about student(s): number, name(s) and grades in all \n subjects")
+    print("Please enter information about student(s): number, name(s) and grades in all \nsubjects")
     num_students = int(input("Please enter the number of students: \n"))
     
     for _ in range(num_students):
