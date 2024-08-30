@@ -1,32 +1,56 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Student Gradebook
+This Python project allows users to manage student data efficiently. Users can enter each student’s first and last name, along with their grades in various subjects. The program then processes this data to:
 
-Welcome,
+1. Validate the entered information.
+2. Calculate the average grade for each student.
+3. Determine the rank of each student based on their average grade.
+4. Assign a grade of success.
+5. Evaluate the student’s status as pass or fail.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+This project aims to streamline the process of student evaluation, making it easier for educators to track and analyze student performance.
 
-## Reminders
+The live link can be found here : https://student-gradebook-d718e2d334b6.herokuapp.com/
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+![Student gradebook](assets/images/app.png)
 
-## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Features:
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+1. User-Friendly Data Entry:
+    * Allows users to input student names, surnames, and grades in various subjects.
 
-Connect your GitHub repository and deploy as normal.
+2. Data Validation:
+    * Ensures that all entered data is accurate and complete before processing.
 
-## Constraints
+3. Average Grade Calculation:
+    * Automatically calculates the average grade for each student based on their subject grades.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+4. Student Ranking:
+    * Ranks students according to their average grades, providing a clear view of their performance relative to peers.
 
----
+5. Grade of Success Assignment:
+    * Assigns a grade of success (e.g., A, B, C) based on predefined criteria.
 
-Happy coding!
+6. Pass/Fail Status Evaluation:
+    * Determines whether a student has passed or failed based on their average grade and other criteria.
+
+7. Comprehensive Reporting:
+    * Generates detailed reports summarizing each student’s performance, including their average grade, rank, grade of success, and pass/fail status.
+
+8. Scalability:
+    * Can handle a large number of students and subjects, making it suitable for various educational settings.
+
+## Testing:
+
+In order to test my code, I used python tutor, it is a fantastic tool for visualizing and debugging a Python code. It allows me to see the execution of my code step-by-step, which can be incredibly helpful for understanding how my code works and for finding bugs.
+
+- Python tutor link : https://pythontutor.com/render.html
+
+## Deployement:
+
+Deploying a Python app to Heroku involves using the Heroku platform to host and manage my application. Heroku provides a cloud environment where I can easily push my code, and it handles the deployment, scaling, and management of my app. By using Heroku, I can focus on developing my application without worrying about the underlying infrastructure. This makes it an excellent choice for quickly getting my first Python app up and running on the web.
+
+Link to Heroku : https://www.heroku.com/
+The live link can be found here : https://student-gradebook-d718e2d334b6.herokuapp.com/
