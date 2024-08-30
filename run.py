@@ -139,7 +139,7 @@ def main():
     """
     Main function to input student data and process it
     """
-    print("Welcome to our student gradebook ")
+    print("----------- Welcome to our student gradebook -----------")
     students = []
     print("Please enter information about student(s): number, name(s) and grades in all subjects")
     num_students = int(input("Please enter the number of students: \n"))
